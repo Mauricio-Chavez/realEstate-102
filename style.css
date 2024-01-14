@@ -4,7 +4,10 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-
+main{
+    margin: 0 auto;
+    max-width: 95%;
+}
 
 header {
     padding: 1rem;
