@@ -8,19 +8,24 @@
 </head>
 <body>
     <header>
-        <h1>Real Estate</h1>
-        <nav>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-        <p>We sell luxury houses, condominiums, and penthouses</p>
+        <div class="flex-header-v container">
+            <div class="flex-header">
+                <h1>Real Estate</h1>
+                <nav>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <p>We sell luxury houses, condominiums, and penthouses</p>
+        </div>
     </header>
-    <main>
+    <main class="container">
         <h1>More about us</h1>
-        <div class="main-content">
+        <div class="flex-about">
             <div>
                 <img src="./img/icon1.svg" alt="Security icon">
                 <h2>Security</h2>
@@ -38,5 +43,79 @@
             </div>
         </div>
     </main>
+    <section class="container">
+        <h2>Houses and Penthouses</h2>
+        <div class="houses-container">
+            <div class="house-item">
+                <img src="/img/announcement1.jpg" alt="">
+                <div class="house-item-text">
+                    <h3>Luxury House on the Lake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maiores ullam vel nostrum. Nihil nobis odio dolor natus nisi libero.</p>
+                    <p class="price">$3,000,000.00</p>
+                    <ul class="list-flex">
+                        <li class="item-flex">
+                            <img src="/img/icon_wc.svg" alt="">
+                            <p>3</p>
+                        </li>
+                        <li class="item-flex">
+                            <img src="/img/icon_parking.svg" alt="">
+                            <p>3</p>
+                        </li>
+                        <li class="item-flex">
+                            <img src="/img/icon_room.svg" alt="">
+                            <p>3</p>
+                        </li>
+                    </ul>
+                    <button class="btn">See Details</button>
+                </div>
+            </div>
+            <div class="house-item">
+                <img src="/img/announcement2.jpg" alt="">
+                <div class="house-item-text">
+                    <h3>Luxury House </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maiores ullam vel nostrum. Nihil nobis odio dolor natus nisi libero.</p>
+                    <p class="price">$3,000,000.00</p>
+                    <ul class="list-flex">
+                        <li class="item-flex">
+                            <img src="/img/icon_wc.svg" alt="">
+                            <p>3</p>
+                        </li>
+                        <li class="item-flex">
+                            <img src="/img/icon_parking.svg" alt="">
+                            <p>3</p>
+                        </li>
+                        <li class="item-flex">
+                            <img src="/img/icon_room.svg" alt="">
+                            <p>3</p>
+                        </li>
+                    </ul>
+                    <button class="btn">See Details</button>
+                </div>
+            </div>
+            <div class="house-item">
+                <img src="/img/announcement3.jpg" alt="">
+                <div class="house-item-text">
+                    <h3>House with a Pool</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maiores ullam vel nostrum. Nihil nobis odio dolor natus nisi libero.</p>
+                    <p class="price">$3,000,000.00</p>
+                    <ul class="list-flex">
+                        <li class="item-flex">
+                            <img src="/img/icon_wc.svg" alt="">
+                            <p>3</p>
+                        </li>
+                        <li class="item-flex">
+                            <img src="/img/icon_parking.svg" alt="">
+                            <p>3</p>
+                        </li>
+                        <li class="item-flex">
+                            <img src="/img/icon_room.svg" alt="">
+                            <p>3</p>
+                        </li>
+                    </ul>
+                    <button class="btn">See Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
