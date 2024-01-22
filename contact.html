@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="site-second">
+            <div class="flex-header container">
+                <h1>RealEstate</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main class="main-content container">
+        <div class="text-container">
+            <h2>Contact</h2>
+            <p>Fill the next information</p>
+        </div>
+        <form class="form-container">
+            <fieldset>
+                <legend>Personal information</legend>
+                <div class="input-container">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Type your name">
+                </div>
+                <div class="input-container">
+                    <label>Age:</label>
+                    <input type="number" placeholder="Type your age">
+                </div>
+                <div class="input-container">
+                    <label>Name:</label>
+                    <input type="tel" placeholder="Type your phone number">
+                </div>
+                <div class="input-container">
+                    <label>Message:</label>
+                    <textarea cols="30" rows="10" placeholder="Type your menssage"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Product information</legend>
+                <form class="form-container">
+                    <div class="input-container">
+                        <label>Type:</label>
+                        <select class="select-container">
+                            <option disabled selected value="">--- Select an Option ---</option>
+                            <option value="residential">Residential</option>
+                            <option value="commercial">Commercial</option>
+                            <option value="rental">Rental</option>
+                        </select>
+                    </div>
+                    <div class="input-container">
+                        <label>Number</label>
+                        <input type="number">
+                    </div>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Contact information</legend>
+                <form class="form-container">
+                    <div class="radio-container">
+                        <label>Phone</label>
+                        <input type="radio" name="radio" value="phone" />
+                        <label>Email</label>
+                        <input type="radio" name="radio" value="email" />
+                    </div>
+                    <p class="text-instruction">If you want to be contacted by phone, please select a day and hour:</p>
+                    <div class="input-container">
+                        <label for="">Date:</label>
+                        <input type="date">
+                    </div>
+                    <div class="input-container">
+                        <label for="">Hour:</label>
+                        <input type="time">
+                    </div>
+                </form>                
+            </fieldset>
+        </form>
+        <button class="btn-send">Send</button>
+    </main>
+</body>
+</html>
