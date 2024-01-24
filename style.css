@@ -574,4 +574,26 @@ footer ul li a {
     ul{
         padding: 0;
     }
+    .contactUs{
+        flex-direction: column;
+        width: 90%;
+    }
+    .text-contactUs{
+        width: 90%;
+    }
+    .img-contactUs-container{
+        width: 90%;
+    }
+    .receive-news{
+
+        height: 70vh;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .title-container{
+        width: 90%;
+    }
 }
