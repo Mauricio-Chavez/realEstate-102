@@ -61,6 +61,11 @@ ul li a {
 }
 
 /*!About Section*/
+.title{
+    text-align: center;
+    margin: 2rem auto;
+
+}
 .flex-about{
     display: flex;
     flex-direction: row;
@@ -150,9 +155,6 @@ section h2{
     font-size: 2.0rem;
 }
 
-.form-container{
-
-}
 fieldset{
     padding: 1rem;
 }
@@ -176,6 +178,9 @@ legend, label,input{
 .input-container label{
     display: inline-block;
     width: 10rem;
+}
+.main-content{
+    margin: 5rem auto;
 }
 .main-content label{
     text-transform: uppercase;
@@ -228,4 +233,345 @@ legend, label,input{
 
 legend{
     color: #777777;
+}
+/*!About*/
+.site-about-header{
+    font-size: 1.6rem;
+    padding: 1rem;
+    background-image: url(./img/highlight.jpg);
+    background-size: cover;
+    color: white;
+    height: 50vh;
+}
+.centered-titles{
+    text-align: center;
+}
+.centered-titles h1{
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.centered-titles p{
+    font-size: 1.6rem;
+}
+.founder-container{
+    width: 50%;
+}
+.founder-container img{
+    border-radius: 1rem;
+}
+.main-container{
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+}
+.info-founder-container{
+    width: 50%;
+}
+.title-style{
+    width: 100%;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.title-style h1{
+    margin-bottom: 0;
+}
+.text-founder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin: 1rem 6rem;
+}
+.contact a{
+    color: #523e2a;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.contact{
+    list-style: none;
+}
+.flex-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact p{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 2.5rem;   
+    margin: 1rem auto;
+}
+.founder-details{
+    font-family: 'Times New Roman', Times, serif;
+}
+.founder-details p{
+    text-align: justify;
+    font-size: 2rem;
+}
+.founder-details h2{
+    font-weight: 500;
+    font-size: 4rem;
+}
+.founder-details h3{
+    font-size: 2.5rem;
+    color: rgb(104, 1, 1);
+}
+.separator {
+    width: 100%;
+    height: 1px; 
+    background-color: #ccc;
+    margin: 1.5rem 0; 
+}
+.flex-contact-social{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+}
+
+/*!blog*/
+.site-blog-header{
+    font-size: 1.6rem;
+    padding: 1rem;
+    background-image: url(./img/highlight2.jpg);
+    background-size: cover;
+    color: white;
+    height: 50vh; 
+}
+.main-blog-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    gap: 2rem;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-news{
+    width: 40rem;
+    text-align: center;
+}
+.card-news img{
+    border-radius: 1rem 1rem 0 0;
+}
+.text-card-info{
+    margin: 1rem auto;
+    width: 95%;
+}
+.text-card-info a{
+    color: #523e2a;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.date-author{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.card-news h2{
+    font-size: 2.2rem;
+    margin: 1rem 0;
+}
+.card-news p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+.title-container{
+    text-align: center;
+    margin: 1rem auto;
+}
+.title-container h3{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title-container p{
+    font-size: 1.6rem;
+}
+.receive-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    height: 50vh;
+    background-color: rgb(3, 3, 44);
+    margin: 0 auto;
+}
+.style-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.receive-news label{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.receive-news input{
+    background-color: rgb(3, 3, 44);
+    border: none;
+    margin: 1rem;
+    color: white;
+    border-bottom: white 1px solid; 
+}
+.receive-news button{
+    background-color: rgb(3, 3, 44);
+    margin: 1rem;
+    border: white 1px solid; 
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.5rem 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.contactUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+    width: 80%;
+    margin: 10rem auto;
+}
+.contactUs h2{
+    margin-top: 0;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img-contactUs-container{
+    width: 50%;
+}
+.img-contactUs-container img{
+    border-radius: 1rem;
+}
+.text-contactUs{
+    text-align: center;
+    width: 40%;
+}
+.text-contactUs button{
+    background-color: rgb(3, 3, 44);
+    margin: 1rem;
+    border: white 1px solid; 
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.5rem 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.text-contactUs p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+/*!Footer*/
+.footer-home{
+    background-color: rgb(31, 66, 70);
+}
+.footer-about{
+    background-color: #0c0701;
+}
+.footer-blog{
+    background-color: rgb(0, 72, 114);
+}
+.footer-contact{
+    background-color: #222222;
+}
+
+footer {
+    
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+footer ul {
+    display: flex;
+    gap: 2rem;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+/*!Mobile Version*/
+
+@media screen and (max-width: 768px) {
+    /*!header*/
+    .site-init{
+        height: 22vh;
+    }
+    .site-init p{
+        font-size: 1.5rem;
+    }
+    .flex-header ul{
+        padding: 0;
+    }
+    .flex-header{
+        flex-direction: column;
+    }
+    .flex-header-v{
+        height: 25vh;
+        text-align: center;
+    }
+    .flex-about{
+        flex-direction: column;
+    }
+    /*!About*/
+    .site-about-header{
+        font-size: 1.3rem;
+        height: 30vh;
+    }
+    .main-container{
+        flex-direction: column;
+        width: 80%;
+    }
+    .info-founder-container{
+        width: 100%;
+    }
+    .site-about-header h1{
+        font-size: 3rem;
+    }
+    .title-style{
+        font-size: 1.7rem;
+    }
+    .text-founder{
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+    .text-founder p{
+        font-size: 1.5rem;
+    }
+    .text-founder a{
+        font-size: 1.2rem;
+    }
+    .founder-container{
+        width: 100%;
+    }
+    .founder-container img{
+        border-radius: 1rem;
+    }
+    .founder-details h2{
+        font-size: 2rem;
+    }
+    .founder-details p{
+        font-size: 1.3rem;
+    }
+    footer{
+        flex-direction: column;
+        font-size: 1.3rem;
+
+    }
+    ul{
+        padding: 0;
+    }
 }
